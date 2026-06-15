@@ -313,7 +313,6 @@ mise exec -- node --check open_cortex/ui/assets/open_cortex.js
 - [ ] Add final Space URL to this README.
 - [ ] Add demo video URL to this README.
 - [ ] Add social post URL to this README.
-- [ ] Replace screenshot placeholders in `docs/assets/`.
 - [ ] Run the Build Small README validator.
 - [ ] Confirm the model is under 32B parameters.
 
