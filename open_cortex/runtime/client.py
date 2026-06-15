@@ -17,7 +17,7 @@ def stream_chat_events(message: list[ChatMessage]) -> Iterator[RuntimeEvent]:
     request_body = {
         "messages": to_llama_messages(message),
         "temperature": 0.2,
-        "max_tokens": 100,
+        "max_tokens": 1024,
         "stream": True,
         "stream_options": {"include_usage": True},
         "timings_per_token": True,
