@@ -1,7 +1,7 @@
 ---
 title: OpenCortex
 emoji: 🧠
-colorFrom: cyan
+colorFrom: red
 colorTo: blue
 sdk: gradio
 sdk_version: 6.18.0
