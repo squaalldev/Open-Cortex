@@ -19,7 +19,9 @@ tags:
   - local-ai
   - ai-infra
   - observability
+short_description: Feel a local LLM think,  work, and forget.
 ---
+
 
 # OpenCortex
 
@@ -348,3 +350,4 @@ mise exec -- node --check open_cortex/ui/assets/open_cortex.js
 ## License
 
 MIT
+
