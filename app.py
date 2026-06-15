@@ -1,7 +1,5 @@
-from open_cortex.ui.app import build_app
+from open_cortex.ui.app import app, main
 
-demo = build_app()
 
 if __name__ == "__main__":
-    demo.queue()
-    demo.launch()
+    main()
