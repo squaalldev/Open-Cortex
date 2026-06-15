@@ -5,6 +5,8 @@ bin
 tmp
 .venv
 plans
+!docs/superpowers/plans/
+!docs/superpowers/plans/*.md
 notes
 
 .superpowers
