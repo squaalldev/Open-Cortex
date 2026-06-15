@@ -49,9 +49,6 @@ context.
 
 ![OpenCortex runtime observatory](docs/assets/opencortex-hero.png)
 
-> Screenshot TODO: replace `docs/assets/opencortex-hero.png` with the main
-> 16:9 demo screenshot before submission.
-
 ## Why this exists
 
 Small local models make AI personal again. But local inference is still a black
@@ -74,9 +71,9 @@ feel the hidden mechanics of inference while they chat.
 
 ## Demo links
 
-- **Hugging Face Space:** TODO: add Space URL
-- **Demo video:** TODO: add YouTube / Space video URL
-- **Social post:** TODO: add X / LinkedIn / HF post URL
+- **Hugging Face Space:** https://huggingface.co/spaces/build-small-hackathon/open-cortex
+- **Demo video:** https://youtu.be/edxZdttCf-s
+- **Social post:** https://x.com/ZhaoJ90682/status/2066576258042155518
 
 The Build Small Hackathon requires a deployed Gradio Space, a demo video, a
 social post, and README tags for tracks and badges. This README is structured
@@ -117,18 +114,12 @@ see what the model can no longer reliably use.
 
 ![Context boundary event](docs/assets/opencortex-context-collapse.png)
 
-> Screenshot TODO: capture the active context boundary and context window full
-> state.
-
 ### 6. Thought loop detection
 
 If generation begins repeating the same pattern, OpenCortex marks it as a
 thought loop. The Token Stream and Cortex Core switch into a red hazard state.
 
 ![Thought loop detected](docs/assets/opencortex-thought-loop.png)
-
-> Screenshot TODO: capture a repeated story response with `THOUGHT LOOP
-> DETECTED` visible.
 
 ## How it works
 
@@ -262,27 +253,6 @@ Use this for the video:
 7. Close with the core claim: OpenCortex turns runtime internals into something
    users can see and reason about.
 
-## Screenshots needed before final submission
-
-Place these files under `docs/assets/`:
-
-```text
-docs/assets/opencortex-hero.png
-docs/assets/opencortex-thought-loop.png
-docs/assets/opencortex-context-collapse.png
-docs/assets/opencortex-slow-decode.png
-```
-
-Capture recommendations:
-
-- `opencortex-hero.png`: full UI during live decode, 16:9, both chat and
-  observatory visible.
-- `opencortex-thought-loop.png`: repeated generation with `THOUGHT LOOP
-  DETECTED` visible.
-- `opencortex-context-collapse.png`: active context boundary visible on the
-  left, context organ visible on the right.
-- `opencortex-slow-decode.png`: Slow decode experiment with broken token flow.
-
 ## Hackathon fit
 
 OpenCortex targets the **Backyard AI** track: it is a practical tool for
@@ -350,4 +320,3 @@ mise exec -- node --check open_cortex/ui/assets/open_cortex.js
 ## License
 
 MIT
-
