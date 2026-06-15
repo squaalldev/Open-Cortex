@@ -21,3 +21,6 @@ dev = [
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 default = true
+
+[project.scripts]
+open-cortex = "open_cortex.ui.app:main"
