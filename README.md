@@ -9,7 +9,13 @@ app_file: app.py
 pinned: false
 license: mit
 tags:
-  - build-small-hackathon
+  - track:backyard-ai
+  - sponsor:openbmb
+  - sponsor:nvidia
+  - sponsor:modal
+  - achievement:offgrid
+  - achievement:offbrand
+  - achievement:llama
   - backyard-ai
   - off-brand
   - tiny-titan
